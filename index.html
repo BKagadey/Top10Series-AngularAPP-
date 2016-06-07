@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8">
       <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
@@ -17,8 +18,7 @@
       <div class="container">
         <div class="content" >
 
-          <!--
-          TODO: Loop through shows and display each one with this HTML-->
+          
           <div ng-repeat='show in shows'>
             <div class="rank" >{{$index + 1}}</div>
             	<tv-shows info='show'></tv-shows>
